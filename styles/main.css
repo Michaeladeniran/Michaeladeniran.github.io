@@ -48,10 +48,18 @@ main h3 {
     padding: 1em;
 }
 main nav {
-
+    margin-top: 1.5em; right: 2em; left: 2em; bottom: 1.5em;
+    border: 5px dashed style blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
 }
 main div.contact {
-    
+    margin-top: 1.5em; right: 2em; bottom: 0em; left: 2em;
+    bottom: 5px dotted stly blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;    
 }
 #list {
     line-height: 1.5em;
