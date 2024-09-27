@@ -56,7 +56,7 @@ main nav {
     padding: 0.5em;
 }
 main div.contact {
-    margin: 1.5em 2em 0em 2em;
+    margin: 1.5em 2em 0em;
     bottom: 5px dotted light skyblue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
