@@ -43,7 +43,7 @@ main {
 main h3 {
     font-size: 105%;
     margin: 3em 2em 1.5em;
-    border: 5px double blue;
+    border: 5px double lightskyblue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
