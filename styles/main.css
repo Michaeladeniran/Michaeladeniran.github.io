@@ -49,15 +49,15 @@ main h3 {
     padding: 1em;
 }
 main nav {
-    margin: 1.5em 2em 1.5;
-    border: 5px dashed style blue;
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
 }
 main div.contact {
     margin: 1.5em 2em 0em;
-    bottom: 5px dotted light skyblue;
+    border: 5px dotted skyblue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;    
