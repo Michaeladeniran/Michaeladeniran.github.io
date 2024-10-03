@@ -11,16 +11,12 @@ body{
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: url("../images/flag.jpg");
-    background-position: right;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
 }
 a:focus, a:hover {
     font-style: italic;
     color:orangered;
     border: 3px blue
-    border-style
+    border-style: dotted solid;
 }
 header h1 {
     font-size: 175%;
@@ -34,40 +30,39 @@ header h2 {
 }
 header img {
     float: left;
-    margin-left: 2.5em;
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
-main {
+article {
     clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
 }
-main h3 {
-    font-size: 105%;
-    margin: 3em 2em 1.5em;
-    border: 5px double lightskyblue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
+article h3 {
+    column-span: all;
 }
-main nav {
-    margin: 1.5em 2em 1.5em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 0.5em;
+article img {
+    float: left;
+    margin-right: 3em;
+    margin-bottom: 1em;
 }
-main div.contact {
-    margin: 1.5em 2em 0em;
-    border: 5px dotted skyblue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;    
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
 }
-#list {
-    line-height: 1.5em;
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffabc6;
 }
-footer p.copyright {
-    text-align: center;
-    font-size: 80%;
+footer{
+    clear: both;
+    border-top: 2px solid  maroon;
 }
