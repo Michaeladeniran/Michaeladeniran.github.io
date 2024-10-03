@@ -62,7 +62,10 @@ aside {
     float: right;
     background-color: #ffabc6;
 }
-footer{
+footer p.copyright{
     clear: both;
     border-top: 2px solid  maroon;
+}
+p.fixed {
+    
 }
