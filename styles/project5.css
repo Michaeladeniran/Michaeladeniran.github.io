@@ -67,5 +67,6 @@ footer p.copyright{
     border-top: 2px solid  maroon;
 }
 p.fixed {
+    width: auto;
     
 }
