@@ -67,7 +67,5 @@ footer p.copyright{
     border-top: 2px solid  maroon;
 }
 p.fixed {
-    position: fixed;
-    bottom: 60px;
-    right: 0;
+    
 }
