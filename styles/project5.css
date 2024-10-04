@@ -68,7 +68,6 @@ footer p.copyright{
 }
 p.fixed {
     POsition: fixed;
-    bottom:  100;
+    bottom: 500px;
     right: 0;
-    top: 170px;
 }    
