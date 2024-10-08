@@ -28,6 +28,9 @@ header h2 {
     color: #800000;
     text-indent: 30px;
 }
+header {
+    border-bottom: 2px solid maroon;
+}
 header img {
     float: left;
 }
