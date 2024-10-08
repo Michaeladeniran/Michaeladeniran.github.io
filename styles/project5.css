@@ -64,10 +64,12 @@ aside {
 }
 footer p.copyright{
     clear: both;
+    text-align: center;
     border-top: 2px solid  maroon;
 }
 p.fixed {
     position: fixed;
-    bottom: 100px;
+    bottom: 600px;
     right: 0;
+
 }    
