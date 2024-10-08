@@ -15,7 +15,7 @@ body{
 a:focus, a:hover {
     font-style: italic;
     color:orangered;
-    border: 3px blue
+    border: 3px blue;
     border-style: dotted solid;
 }
 header h1 {
@@ -67,7 +67,7 @@ footer p.copyright{
     border-top: 2px solid  maroon;
 }
 p.fixed {
-    POsition: fixed;
+    position: fixed;
     bottom: 100px;
     right: 0;
 }    
