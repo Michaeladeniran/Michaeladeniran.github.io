@@ -75,7 +75,9 @@ p.fixed {
     position: fixed;
     bottom: 200px;
     right: 0;
-    width: auto
+    width: 350px;
+    top: 170px;
+
     
 
 }    
