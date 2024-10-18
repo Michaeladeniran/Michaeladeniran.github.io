@@ -1,6 +1,6 @@
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { Clear: 0; }
-#nav_menu ul li a { clear: left; }
+#nav_menu ul li a { clear: 0; }
 text-align: center;
 display: block;
 width: 175px;
