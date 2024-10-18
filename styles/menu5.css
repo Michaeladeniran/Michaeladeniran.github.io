@@ -1,5 +1,5 @@
 #nav_menu ul { list-style-type: none; }
-#nav_menu ul li { Float: left; }
+#nav_menu ul li { Clear: 0; }
 #nav_menu ul li a { clear: left; }
 text-align: center;
 display: block;
