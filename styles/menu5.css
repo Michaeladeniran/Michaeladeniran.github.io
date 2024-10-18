@@ -13,3 +13,27 @@ font-weight: bold;
 border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
+.nav {
+    list-style-type: none;  /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline;  /* Display list items in a horizontal row */
+    margin-right: 15px;  /* Add some space between the links */
+}
+
+.nav li a {
+    text-decoration: none;  /* Remove underline from links */
+    padding: 8px 16px;
+    display: inline-block;
+    color: black;  /* Link color */
+}
+
+.nav li a:hover {
+    background-color: #ddd;  /* Background color on hover */
+    color: black;  /* Text color on hover */
+}
+z
