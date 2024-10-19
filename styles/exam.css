@@ -1,5 +1,5 @@
 <!DOCTYPE html>#nav_menu ul { list-style-type: none; }
-#nav_menu ul li { clear: left; }
+#nav_menu ul li { float: left; }
 #nav_menu ul li a {
 text-align: center;
 display: block;
