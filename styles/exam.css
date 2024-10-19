@@ -2,7 +2,7 @@
 #nav_menu ul li { clear: left; }
 #nav_menu ul li a {
 text-align: center;
-display: block;
+display: inline-block;
 width: 175px;
 padding: 1em 0; /* padding above and below a
 elements */
