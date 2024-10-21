@@ -16,3 +16,28 @@ border-right: 2px solid white; }
 article{
     clear:left
 }
+article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid black; }
+    h1 {
+    font-size: 170%;
+    margin-top: 0;
+    column-span: all; }
+    p {
+    margin-top: 0;
+    margin-bottom: .5em; }
+    header img {
+        float: left;
+    }
+    .shadow {
+        text-shadow: 2px 2px 2px rgb(128, 0, 0);
+    }
+    article {
+        clear: left;
+        width: 70%;
+        float: left;
+        column-count: 3;
+        column-rule: 2px dotted maroon;
+        column-gap: 2em;
+        margin-left: 2em;
