@@ -30,3 +30,9 @@ article{
         column-rule: 2px dotted maroon;
         column-gap: 2em;
         margin-left: 2em;
+body{
+        background-image: url("../images/flag.jpg");
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
