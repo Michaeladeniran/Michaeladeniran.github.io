@@ -16,19 +16,8 @@ border-right: 2px solid white; }
 article{
     clear:left
 }
-article {
-    column-count: 3;
-    column-gap: 35px;
-    column-rule: 2px solid black; }
-    h1 {
-    font-size: 170%;
-    margin-top: 0;
-    column-span: all; }
-    p {
-    margin-top: 0;
-    margin-bottom: .5em; }
     header img {
-        float: left;
+        clear: left;
     }
     .shadow {
         text-shadow: 2px 2px 2px rgb(128, 0, 0);
