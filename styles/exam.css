@@ -29,23 +29,20 @@ border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
 
-article{
-    clear:left
+artcle img {
+    float: left;
 }
-    header img {
-        float: left;
-    }
-    .shadow {
-        text-shadow: 2px 2px 2px rgb(128, 0, 0);
-    }
-    article {
-        clear: left;
-        width: 70%;
-        float: left;
-        column-count: 3;
-        column-rule: 2px dotted maroon;
-        column-gap: 2em;
-        margin-left: 2em;
+.shadow {
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
+article {
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 3;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 article p::first-letter {
     font-size: 3em;
