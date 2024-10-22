@@ -17,7 +17,7 @@ article{
     clear:left
 }
     header img {
-        clear: left;
+        float: left;
     }
     .shadow {
         text-shadow: 2px 2px 2px rgb(128, 0, 0);
