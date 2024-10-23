@@ -36,7 +36,7 @@ artcle img {
 }
 article {
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 3;
     column-rule: 2px dotted maroon;
@@ -49,4 +49,9 @@ article p::first-letter {
     font-style: italic;
     color: black;
 }
-
+ aside {
+        width: 20%;
+        float: right;
+        background-color: #ffabc6;
+        padding: 10px;  
+}
