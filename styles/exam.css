@@ -52,9 +52,9 @@ article p::first-letter {
     font-size: 10px;
     font-weight:bold;
     text-align: center;
-        top: 80%
+        top: 30%
         width: 20%;
-        Float: right; 
+        clear: right; 
         background-color: #ffabc6;
         padding: 10px; 
 }
