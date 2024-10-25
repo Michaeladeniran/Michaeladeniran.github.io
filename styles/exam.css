@@ -49,9 +49,20 @@ article p::first-letter {
     font-style: italic;
     color: black;
 }
+    p: first-child
+}
  aside {
+    font-size: 10px;
+    font-weight:bold;
+    font-familyGeorgia, serif;
+    text-align: center;
+ }
+        position: fixed;
+        top: 50%
         width: 20%;
-        float: right;
+        right: -20px;
         background-color: #ffabc6;
-        padding: 10px;  
+        padding: 20px;
+        border-left: 2px solid #333;
+        box-sizing: boarder-box;  
 }
