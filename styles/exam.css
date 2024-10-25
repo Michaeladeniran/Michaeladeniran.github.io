@@ -51,7 +51,8 @@ article p::first-letter {
     font-size: 10px;
     font-weight:bold;
     text-align: center;
-        top: 50%
+        top: 30%
+        width: 50%;
         clear: right; 
         background-color: #ffabc6;
         padding: 10px; 
