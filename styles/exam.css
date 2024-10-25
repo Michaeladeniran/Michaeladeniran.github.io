@@ -54,7 +54,7 @@ article p::first-letter {
     text-align: center;
         top: 50%
         width: 20%;
-        clear: right; 
+        Float: right; 
         background-color: #ffabc6;
         padding: 10px; 
 }
@@ -63,3 +63,4 @@ aside ol{
 }
 aside ul{
     list-style-type:square;
+}
