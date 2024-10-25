@@ -56,7 +56,7 @@ article p::first-letter {
     position: fixed;
         top: 50%
         width: 20%;
-        Clear: :right;
+        right: 
         background-color: #ffabc6;
         padding: 10px; 
 }
