@@ -51,7 +51,7 @@ p.fixed {
     position: fixed;
     bottom: 100px;
     right: 0;
-    width: 350px;
+    width: auto;
     padding: 20px;
     background-color: #ffebc6;
 aside
@@ -64,7 +64,6 @@ aside
 }   
 footer p.copyright{
     clear: both;
-    text-align: center;
     border-top: 2px solid  maroon;
 }
     
