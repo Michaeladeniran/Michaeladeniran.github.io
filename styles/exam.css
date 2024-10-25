@@ -48,12 +48,6 @@ article p::first-letter {
     font-style: italic;
     color: black;
 }
-aside {
-    width: 20%;
-    float: right;
-    background-color: #ffabc6;
-    padding: 10px;
-}
 footer p.copyright{
     clear: both;
     text-align: center;
@@ -66,3 +60,14 @@ p.fixed {
     width: 350px;
     padding: 20px;
     background-color: #ffebc6;
+    aside {
+        width: 20%;
+        float: right;
+        margin-top: auto;
+        background-color: #ffabc6;
+        padding: 10px;
+        font-size: 10px;
+        font-weight:bold;
+        text-align: center;
+        padding: 50px; 
+    
