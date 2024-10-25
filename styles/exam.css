@@ -11,7 +11,6 @@ body{
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
-
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
@@ -52,8 +51,7 @@ article p::first-letter {
     font-size: 10px;
     font-weight:bold;
     text-align: center;
-        top: 30%
-        width: 20%;
+        top: 50%
         clear: right; 
         background-color: #ffabc6;
         padding: 10px; 
