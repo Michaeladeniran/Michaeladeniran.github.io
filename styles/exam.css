@@ -48,15 +48,21 @@ article p::first-letter {
     font-style: italic;
     color: black;
 }
- aside {
+aside {
     width: 20%;
     float: right;
-    margin-top: auto;
     background-color: #ffabc6;
     padding: 10px;
-    font-size: 10px;
-    font-weight:bold;
-    text-align: center;
-    padding: 50px; 
 }
-
+footer p.copyright{
+    clear: both;
+    text-align: center;
+    border-top: 2px solid  maroon;
+}
+p.fixed {
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    width: 350px;
+    padding: 20px;
+    background-color: #ffebc6;
