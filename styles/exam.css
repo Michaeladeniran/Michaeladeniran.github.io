@@ -49,14 +49,11 @@ article p::first-letter {
     font-style: italic;
     color: black;
 }
-    p: first-child
-}
  aside {
     font-size: 10px;
     font-weight:bold;
     font-familyGeorgia, serif;
     text-align: center;
- }
         position: fixed;
         top: 50%
         width: 20%;
