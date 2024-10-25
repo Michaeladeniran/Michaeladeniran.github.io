@@ -62,7 +62,5 @@ article p::first-letter {
         width: 20%;
         right: -20px;
         background-color: #ffabc6;
-        padding: 20px;
-        border-left: 2px solid #333;
-        box-sizing: boarder-box;  
+        padding: 20px; 
 }
