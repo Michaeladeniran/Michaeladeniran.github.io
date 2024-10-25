@@ -11,7 +11,6 @@ body{
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
-
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
@@ -48,11 +47,6 @@ article p::first-letter {
     font-style: italic;
     color: black;
 }
-footer p.copyright{
-    clear: both;
-    text-align: center;
-    border-top: 2px solid  maroon;
-}
 p.fixed {
     position: fixed;
     bottom: 100px;
@@ -60,11 +54,17 @@ p.fixed {
     width: 350px;
     padding: 20px;
     background-color: #ffebc6;
-    aside {
-        width: 20%;
-        float: right;
-        margin-top: auto;
-        background-color: #ffabc6;
-        padding: 10px;
-        
+aside
+ {
+     width: 20%;
+    float: right;
+    margin-top: auto;
+     background-color: #ffabc6;
+     padding: 10px;
+}   
+footer p.copyright{
+    clear: both;
+    text-align: center;
+    border-top: 2px solid  maroon;
+}
     
