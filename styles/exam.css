@@ -57,7 +57,7 @@ p.fixed {
 aside
  {
      width: 20%;
-    float: right;
+    float: left;
     background-color: #ffabc6;
     padding: 10px;
 }   
