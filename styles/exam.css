@@ -51,6 +51,7 @@ article p::first-letter {
  aside {
     width: 20%;
     float: right;
+    margin-top: auto;
     background-color: #ffabc6;
     padding: 10px;
     font-size: 10px;
