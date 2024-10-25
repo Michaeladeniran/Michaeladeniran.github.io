@@ -54,10 +54,10 @@ article p::first-letter {
     font-weight:bold;
     font-familyGeorgia, serif;
     text-align: center;
-        position: fixed;
+    position: fixed;
         top: 50%
         width: 20%;
-        right: -20px;
+        float: :right;
         background-color: #ffabc6;
-        padding: 20px; 
+        padding: 10px; 
 }
