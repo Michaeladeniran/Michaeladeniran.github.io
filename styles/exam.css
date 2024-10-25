@@ -53,7 +53,8 @@ aside {
     width: 20%;
     float: right;
     background-color: #ffabc6;
-    padding: 20px;
+    padding: 10px;
+    boarder: top: 2px;
 }
 footer p.copyright{
     clear: both;
