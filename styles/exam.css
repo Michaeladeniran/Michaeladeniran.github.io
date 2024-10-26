@@ -34,10 +34,10 @@ artcle img {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
 div{
-    border-top:  4px Solid #ccc;
+    border-bottom:  4px Solid #ccc;
     // disply: Block;
 }
-.line{border-top: 4px solid ;}
+.line{border-bottom: 4px solid ;}
 article {
     clear: left;
     width: 75%;
