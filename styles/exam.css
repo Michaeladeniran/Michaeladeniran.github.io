@@ -33,10 +33,6 @@ artcle img {
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
-div{
-    border-bottom:  4px Solid #ccc;
-    // disply: Block;
-}
 .line{border-bottom: 4px solid ;}
 article {
     clear: left;
@@ -59,13 +55,14 @@ p.fixed {
     width: auto;
     padding: 20px;
     background-color: #ffebc6;
+}
 aside
  {
     height: 350px;
      width: 20%;
     float: right;
     background-color: #ffabc6;
-    padding: 20px;
+    padding: 50px;
 }   
 footer p.copyright{
     clear: both;
