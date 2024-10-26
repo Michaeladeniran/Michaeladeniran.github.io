@@ -37,6 +37,7 @@ div{
     border-top:  4px Solid #ccc;
     // disply: Block;
 }
+.line{border-top: 4px solid ;}
 article {
     clear: left;
     width: 75%;
