@@ -49,19 +49,11 @@ article p::first-letter {
     font-style: italic;
     color: black;
 }
-p.fixed {
-    position: fixed;
-    bottom: 100px;
-    right: 0;
-    width: 350;
-    padding: 20px;
-    background-color: #ffebc6;
-}
-aside{ 
-    position: fixed;
-    top: 50%;
-    border: right 2px solid blue;
-    box-sizing:border-box;
+aside {
+  position: fixed;
+    top:50%;
+    border-left: 2px solid #333;
+    box-sizing: border-box;
     height: 200px;
      width: 20%;
     float: right;
@@ -72,6 +64,7 @@ footer
 <footer>
     <p class=" Michael Adeniran</p>
     clear: both;
+    text-align: center;
     border-top: 2px solid  maroon;
 
 }
