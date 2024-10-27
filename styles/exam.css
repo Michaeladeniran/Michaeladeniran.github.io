@@ -68,7 +68,10 @@ aside{
     background-color: #ffebc6;
     padding: 20px;
 }   
-footer p.copyright{
+footer
+<footer>
+    <p class=" Michael Adeniran</p>
     clear: both;
     border-top: 2px solid  maroon;
+
 }
