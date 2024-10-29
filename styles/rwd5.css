@@ -73,4 +73,59 @@ html, body {
     margin-top: 0px;
     transform: rotate(-405deg);
     }
-    /*----end of menu*
+    /*----end of menu*/
+    section a {
+        text-decoration: none;
+        color: white;
+    }
+    .menu a:hover, a.current {
+        text-decoration: underline;
+    }
+    article {
+        padding: 0 1em;
+    }
+    article h2 {
+        font-size: 1.25em;
+    }
+    article p {
+        font-size: 1em;
+    }
+    article img {
+        margin: auto;
+        display: block;
+        width: 100%;
+        max-width: 768px;
+    }
+    footer {
+        border-top: 2px solid #f46b45;
+        text-align: center;
+        font-size: .8em;
+    }
+    @media only screen and (max-width: 700px){
+        .menu-button-container {
+            display: flex;
+        }
+        .menu {
+            position: absolute;
+            top: 0;
+            margin-top: 50px;
+            left: 0;
+            flex-direction: column;
+            width: 100px;
+        }
+    }
+    @media only screen and ( max-width: 700px) {
+        .menu {
+            justify-content: center;
+            align-items: center;
+        }
+        #menu-toggle ~ .menu li (
+            height: 0;
+            margin: 0;
+            padding:o;
+            border: 0;
+            
+        )
+        }
+    }
+       
