@@ -51,10 +51,8 @@ article p::first-letter {
 }
 aside {
     position: fixed;
-    top:50%;
     border-left: 2px solid #333;
     box-sizing: border-box;
-    height: 200px;
     width: 20%;
     float: right;
     background-color: #ffebc6;
