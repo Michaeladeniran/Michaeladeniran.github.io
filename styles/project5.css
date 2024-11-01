@@ -75,7 +75,7 @@ p.fixed {
     position: fixed;
     bottom: 100px;
     right: 0;
-    width: 350px;
+    width: 350px; 
     padding: 20px;
     background-color: #ffebc6;
 }
