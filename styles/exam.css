@@ -60,10 +60,18 @@ aside {
     padding: 20px;
 }   
 footer
-<footer>
+<footer>{
     <p class=" Michael Adeniran</p>
     clear: both;
     text-align: center;
     border-top: 2px solid  maroon;
+}
+    p.fixed {
+        position: fixed;
+        bottom: 100px;
+        right: 0;
+        width: 350px;
+        padding: 20px;
+        background-color: #ffebc6;
 
 }
