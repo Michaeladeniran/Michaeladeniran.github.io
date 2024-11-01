@@ -50,11 +50,10 @@ article p::first-letter {
     color: black;
 }
 aside {
-    top: 20px;
     position: fixed;
     border-left: 2px solid #333;
-    box-sizing: border-box;
-    height: 200px;
+    right: 0;
+    bottom: 100px;
     width: 20%;
     background-color: #ffebc6;
     padding: 20px;
@@ -66,12 +65,4 @@ footer
     text-align: center;
     border-top: 2px solid  maroon;
 }
-    p.fixed {
-        position: fixed;
-        bottom: 100px;
-        right: 0;
-        width: 350px;
-        padding: 20px;
-        background-color: #ffebc6;
-
 }
