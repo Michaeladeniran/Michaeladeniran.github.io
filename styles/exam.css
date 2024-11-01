@@ -1,7 +1,7 @@
 body{  
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 90%;
+    width: 95%;
     background-color: White;
     margin: 15px auto;
     padding: 15px 1.5em;
@@ -39,6 +39,7 @@ artcle img {
 article {
     clear: left;
     width: 75%;
+    float:left;
     column-count: 3;
     column-rule: 2px dotted maroon;
     column-gap: 2em;
@@ -68,6 +69,5 @@ footer {
 .footer-text {
     margin: 0px;
 }
-</style>
 
 
