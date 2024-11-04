@@ -31,6 +31,14 @@ header {
 }
 artcle img {
     float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+article h1 {
+    clear: both;
+}
+article h3 {
+    column-span: all;
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
@@ -58,6 +66,7 @@ aside {
     width: 20%;
     background-color: #ffebc6;
     padding: 20px;
+    border: 1px solid black;
 }   
 footer {
     clear: both;
@@ -68,5 +77,10 @@ footer {
 .footer-text {
     margin: 0px;
 }
-
+aside ul {
+    list-style-type: upper-roman;
+}
+aside ol {
+    list-style-type: lower-alpha;
+}
 
