@@ -67,7 +67,10 @@ aside {
     background-color: #ffebc6;
     padding: 20px;
     border: 1px solid black;
-}   
+}
+aside ul {
+    list-style-type: upper-roman;
+}    
 footer {
     clear: both;
     text-align: center;
