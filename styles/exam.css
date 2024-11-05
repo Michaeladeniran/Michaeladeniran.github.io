@@ -70,6 +70,9 @@ aside {
 }
 aside ul {
     list-style-type: upper-roman;
+}
+aside ol {
+    list-style-type: lower-alpha;
 }    
 footer {
     clear: both;
