@@ -77,10 +77,5 @@ footer {
 .footer-text {
     margin: 0px;
 }
-aside ul {
-    list-style-type: upper-roman;
-}
-aside ol {
-    list-style-type: lower-alpha;
-}
+
 
