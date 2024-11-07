@@ -59,7 +59,7 @@ html, body {
     margin-top: -8px;
     }
     .menu-button::after {
-    content: '';
+    content: ";
     margin-top: 8px;
     }
     #menu-toggle:checked + .menu-button-container .menu-button::before {
