@@ -1,5 +1,5 @@
-table .first {
-border-collapse: separeate;
+table.first {
+border-collapse: separate;
 border: 2px solid black;
 }
 html, body {
@@ -37,4 +37,5 @@ html, body {
     }
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
+    }
 
