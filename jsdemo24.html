@@ -12,22 +12,26 @@
     <h1> The Miles per Gallon Calculator</h1>
     <script>
         const miles = parseInt(prompt("Enter Miles driven"));
-        const gallons = parseInt( prompt("Enter gallons of gas ued"));
+        const gallons = parseInt(prompt("Enter gallons of gas used"));
         const mpg = parseFloat(miles/gallons);
-        const htm12 = '<p> Miles: ${miles}</p>'
+        const htm12 = `<p> Miles: ${miles}</p>
                        <p>Gallons: ${gallons}</p>
-                       <p>MPG: ${ mpg.toFixed(2)}</p>;
+                       <p>MPG: ${ mpg.toFixed(2)}</p>`;
         document.write(html2);
-        </script>
+    </script>
 
-        <h1> The rectangle Area Calculator</h1>
+    <h1> The rectangle Area Calculator</h1>
     <script>
-        const width = parseFloat(promt("Enter a width"));
-        const height =
-        const area   =
-        const html3  =$document.write(html3);
-    </body>
-    </html>
+        const width = parseFloat(promt("Enter a width of the rectangle"));
+        const height =parseFloat(prompt("Enter a height of the rectangle"));
+        const area   =parseFloat(width * height);
+        const html3  =`<p> Width :${width}</p>
+                    <p> height : ${height}</p>
+                    <p>area: ${area.tofixed}(3)}</p>;
+    document.write(html3);
+    </script>
+</body>
+</html>
          
 
     
