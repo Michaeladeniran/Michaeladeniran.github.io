@@ -46,11 +46,11 @@ html, body {
     }
     
     table.third thead tr:first-child {
-        border-top: 2px solid green;
+        border-top: 2px solid orangered;
     }
     
     table.third thead tr:last-child {
-        border-bottom: 2px solid green;
+        border-bottom: 2px solid orangered;
     }
     
     table.third tbody tr:first-child {
