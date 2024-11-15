@@ -50,7 +50,7 @@ html, body {
     }
     
     table.third thead tr:last-child {
-        border-bottom: 2px solid orangered;
+        border-bottom: 2px solid green;
     }
     
     table.third tbody tr:first-child {
